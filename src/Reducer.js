@@ -1,9 +1,9 @@
 export const initialstate = {
-    basket: [],
+    basket: ["bread","girl"],
 }
 function reducer(state,action){
     switch(action.type ){
-    case 'ADD_TO_BAD':
+    case 'ADD_TO_BASKET':
         break;
     case '  REMOVE_FROM_BASKET':
         break;

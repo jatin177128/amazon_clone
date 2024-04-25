@@ -5,7 +5,8 @@ import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket';
 import { useStateValue } from './StateProvider';
 function Header(){
-    const [{basket}] = useStateValue();
+    const [{basket}] = useStateValue(); 
+    
   return (
     <nav className='navbar'>
         <Link to ='/'>
